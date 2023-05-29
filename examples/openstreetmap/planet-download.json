@@ -1,0 +1,50 @@
+{
+  "steps": [
+    {
+      "id": "download",
+      "needs": [],
+      "tasks": [
+        {
+          "type": "DownloadUrl",
+          "url": "https://download.geofabrik.de/africa-latest.osm.pbf",
+          "path": "africa.osm.pbf"
+        },
+        {
+          "type": "DownloadUrl",
+          "url": "https://download.geofabrik.de/antarctica-latest.osm.pbf",
+          "path": "antarctica.osm.pbf"
+        },
+        {
+          "type": "DownloadUrl",
+          "url": "https://download.geofabrik.de/asia-latest.osm.pbf",
+          "path": "asia.osm.pbf"
+        },
+        {
+          "type": "DownloadUrl",
+          "url": "https://download.geofabrik.de/australia-oceania-latest.osm.pbf",
+          "path": "australia-oceania.osm.pbf"
+        },
+        {
+          "type": "DownloadUrl",
+          "url": "https://download.geofabrik.de/central-america-latest.osm.pbf",
+          "path": "central-america.osm.pbf"
+        },
+        {
+          "type": "DownloadUrl",
+          "url": "https://download.geofabrik.de/europe-latest.osm.pbf",
+          "path": "europe.osm.pbf"
+        },
+        {
+          "type": "DownloadUrl",
+          "url": "https://download.geofabrik.de/north-america-latest.osm.pbf",
+          "path": "north-america.osm.pbf"
+        },
+        {
+          "type": "DownloadUrl",
+          "url": "https://download.geofabrik.de/south-america-latest.osm.pbf",
+          "path": "south-america.osm.pbf"
+        }
+      ]
+    }
+  ]
+}

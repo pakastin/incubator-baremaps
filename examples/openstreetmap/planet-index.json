@@ -1,0 +1,17 @@
+{
+  "steps": [
+    {
+      "id": "index",
+      "needs": [
+        "import"
+      ],
+      "tasks": [
+        {
+          "type": "ExecuteSql",
+          "file": "indexes.sql",
+          "database": "jdbc:postgresql://localhost:5432/baremaps?&user=baremaps&password=baremaps"
+        }
+      ]
+    }
+  ]
+}

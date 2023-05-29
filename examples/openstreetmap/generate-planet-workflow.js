@@ -79,3 +79,21 @@ for (const continent of continents) {
 workflow.steps[2].tasks.push(steps[2].tasks[0]);
 
 writeFileSync('planet-workflow.json', JSON.stringify(workflow, null, 2));
+
+writeFileSync('planet-download.json', JSON.stringify({
+  steps: [
+    workflow.steps[0]
+  ]
+}, null, 2));
+
+writeFileSync('planet-import.json', JSON.stringify({
+  steps: [
+    workflow.steps[1]
+  ]
+}, null, 2));
+
+writeFileSync('planet-index.json', JSON.stringify({
+  steps: [
+    workflow.steps[2]
+  ]
+}, null, 2));

@@ -1,11 +1,8 @@
 {
-  "needs": [],
   "steps": [
     {
       "id": "index",
-      "needs": [
-        "import"
-      ],
+      "needs": [],
       "tasks": [
         {
           "type": "ExecuteSql",

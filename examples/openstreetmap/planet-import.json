@@ -1,11 +1,8 @@
 {
-  "needs": [],
   "steps": [
     {
       "id": "import",
-      "needs": [
-        "download"
-      ],
+      "needs": [],
       "tasks": [
         {
           "type": "ImportOpenStreetMap",

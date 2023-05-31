@@ -6,8 +6,8 @@
       "tasks": [
         {
           "type": "DownloadUrl",
-          "url": "https://download.geofabrik.de/europe/liechtenstein-latest.osm.pbf",
-          "path": "liechtenstein-latest.osm.pbf"
+          "url": "https://planet.openstreetmap.org/pbf/planet-latest.osm.pbf",
+          "path": "planet-latest.osm.pbf"
         }
       ]
     },
@@ -19,7 +19,7 @@
       "tasks": [
         {
           "type": "ImportOpenStreetMap",
-          "file": "liechtenstein-latest.osm.pbf",
+          "file": "planet-latest.osm.pbf",
           "database": "jdbc:postgresql://localhost:5432/baremaps?&user=baremaps&password=baremaps",
           "databaseSrid": 3857
         }

@@ -6,7 +6,7 @@
       "tasks": [
         {
           "type": "DownloadUrl",
-          "url": "https://planet.openstreetmap.org/pbf/planet-latest.osm.pbf",
+          "url": "https://download.bbbike.org/osm/planet/planet-latest.osm.pbf",
           "path": "planet-latest.osm.pbf"
         }
       ]
